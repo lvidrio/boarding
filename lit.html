@@ -1,0 +1,62 @@
+<!--lit.html-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type = "text/javascript" src = 'lit.js'></script>
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel = "stylesheet" type = "text/css" href = "lit.css">
+</head>
+
+<br>
+<br>
+
+<center>
+  <div class="shad">what the</div>
+</center>
+
+<br>
+<br>
+<br>
+<br>
+
+<!--
+<div class = "row">
+  <div class = "column" style = "background-color:#bbb;outline: 1px solid">
+    <chapter onclick = "Chapter1()">kyle</chapter>
+    <p id = "Chapter1"></p>
+  </div>
+  <div class = "column">
+  <h1>
+  <lp-under>fuck is <lg-over>up</lg-over></lp-under>
+  </h1>
+  </div>
+</div>
+-->
+
+<div class = "row">
+  <div class = "column" style = "background-color:#A38A6E;outline: 1px solid">
+    <chapter id = "ch1">kyle</chapter>
+    <br>
+    <text1 style = "display: none;">no what did you say</text1>
+  </div>
+  <div class = "column">
+  <h1>
+  <lp-under>fuck is <lg-over>up</lg-over></lp-under>
+  </h1>
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+	$("chapter").click(function(){
+  	$("text1").toggle();
+  })
+});
+</script>
+
+<!-- i don't understand why i have to put script at the end here if it's already in a document ready handler in the .js file but it won't work otherwise -->
+
+
+</html>

@@ -1,0 +1,76 @@
+/* lit.css */
+
+body {
+  background-color: lightblue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  color: #333;
+  text-align: right;
+  font-family: garamond;
+  font-size: 25px;
+}
+
+p {
+  font-family: garamond;
+  font-size: 15px;
+}
+
+/* chapter text selectors start */
+
+text1 {
+  font-family: garamond;
+  font-size: 15px;
+}
+
+/* chapter text selectors end */
+
+
+
+/* chapter title selectors start */
+
+chapter {
+  border-top: 2px solid #C2FFAD;
+  text-align: left;
+  font-family: garamond;
+  font-size: 25px;
+}
+
+/* chapter title selectors end */
+
+lp-under {
+  text-decoration: underline pink;
+}
+
+lg-over {
+  text-decoration: overline #ADFFE9;
+}
+
+.shad
+{
+    color: white;
+    font-family: garamond;
+    font-size: 35px;
+    text-shadow:
+    -0.5px -0.5px 0 #FFADEC,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
+    
+}
